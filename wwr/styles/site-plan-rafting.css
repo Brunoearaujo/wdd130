@@ -60,3 +60,5 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
