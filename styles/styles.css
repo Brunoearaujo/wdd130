@@ -52,4 +52,6 @@ img {
   text-align: center;
 }
 
+p { padding: 0; }
+
 /* adding a comment */
