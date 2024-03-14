@@ -11,7 +11,7 @@ main {
 }
 
 aside{
-  width: 20em;
+  width: 22em;
   margin: 1rem;
   border: 1px solid rgb(0,0,0,0.2); /* .2 means that the color is mostly transparent, allowing the background to show through*/
   padding: 1rem;
