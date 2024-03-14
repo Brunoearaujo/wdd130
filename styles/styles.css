@@ -19,7 +19,7 @@
   position: relative; /* Add this line to establish positioning context */
 }
 
-.aside h2 {
+aside h2 {
   position: absolute; /* Add absolute positioning */
   top: 20px; /* Adjust as needed */
   left: 150px; /* Adjust as needed */
