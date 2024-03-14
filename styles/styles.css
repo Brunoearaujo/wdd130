@@ -1,25 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .main {
   max-width: 840px;
   
 }
 
 .aside{
-  width: 20rem;
+  width: 20em;
   margin: 1rem;
   border: 1px solid rgb(0,0,0,0.2); /* .2 means that the color is mostly transparent, allowing the background to show through*/
   padding: 1rem;
   background-color: #eee;
   text-align: center;
+  position: relative; /* Add this line to establish positioning context */
+}
+
+.aside h2 {
+  position: absolute; /* Add absolute positioning */
+  top: 20px; /* Adjust as needed */
+  left: 150px; /* Adjust as needed */
 }
 
 .aside img{
   width: 200px;
   height: auto;
+  
 }
 
 .main img{
   width: 150px;
   height: auto;
+  float: right;
   
 }
 
@@ -55,3 +70,13 @@ img {
 p { padding: 0; }
 
 /* adding a comment */
+
+/* Class Selectors */
+
+.box{
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
