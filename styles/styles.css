@@ -1,21 +1,47 @@
-* {
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-aside {
-  position: relative;
+.main {
+  max-width: 840px;
+  
+}
+
+.box{
+  width: 20em;
+  margin: 1rem;
+  border: 1px solid rgb(0,0,0,0.2); /* .2 means that the color is mostly transparent, allowing the background to show through*/
+  padding: 1rem;
+  background-color: #eee;
+  text-align: center;
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+  position: relative; /* Add this line to establish positioning context */
 }
 
 aside h2 {
-  position: absolute;
-  top: 20px;
-  left: 150px;
+  position: absolute; /* Add absolute positioning */
+  top: 20px; /* Adjust as needed */
+  left: 150px; /* Adjust as needed */
 }
 
-main img {
+.aside img{
+  width: 200px;
+  height: auto;
+  
+}
+
+.main img{
+  width: 150px;
+  height: auto;
   float: right;
+  
 }
 
 nav {
@@ -41,7 +67,7 @@ img {
   box-shadow: 0 0 30px gray;
 }
 
-footer {
+.footer{
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
@@ -49,15 +75,6 @@ footer {
 
 p { padding: 0; }
 
-.box {
-  margin: 1rem;
-  border: 1px solid rgba(0,0,0,.1);
-  padding: 1rem;
-  background-color: #ddd;
-  color: #000;
-}
+/* adding a comment */
 
-/* main img float */
-main img {
-  float: right;
-}
+/* Class Selectors */
