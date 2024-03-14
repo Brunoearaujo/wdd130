@@ -24,7 +24,7 @@ aside{
 aside h2 {
   position: absolute; /* Add absolute positioning */
   top: 20px; /* Adjust as needed */
-  left: 150px; /* Adjust as needed */
+  left: 145px; /* Adjust as needed */
 }
 
 aside img{
@@ -41,6 +41,7 @@ main img{
 }
 
 p { padding: 0; }
+
 nav {
   background-color: steelblue;
   padding: 10px;
@@ -48,7 +49,6 @@ nav {
 
 nav a {
   color: white;
-  display: block;
   padding: 10px;
 }
 
@@ -68,6 +68,7 @@ footer{
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
+  
 }
 
 
