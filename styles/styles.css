@@ -16,12 +16,12 @@
   padding: 1rem;
   background-color: #eee;
   text-align: center;
-  position: relative; /* Add this line to establish positioning context */
   margin: 1rem;
   border: 1px solid rgba(0,0,0,.1);
   padding: 1rem;
   background-color: #ddd;
   color: #000;
+  position: relative; /* Add this line to establish positioning context */
 }
 
 aside h2 {
