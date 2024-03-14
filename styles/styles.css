@@ -4,19 +4,7 @@
   box-sizing: border-box;
 }
 
-main {
-  max-width: 840px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 aside {
-  width: 20em;
-  margin: 1rem auto;
-  border: 1px solid rgb(0, 0, 0, 0.2);
-  padding: 1rem;
-  background-color: #eee;
-  text-align: center;
   position: relative;
 }
 
@@ -26,9 +14,8 @@ aside h2 {
   left: 150px;
 }
 
-aside img {
-  width: 200px;
-  height: auto;
+main img {
+  float: right;
 }
 
 nav {
@@ -38,20 +25,15 @@ nav {
 
 nav a {
   color: white;
-  display: inline-block;
-  padding: 10px 20px;
-  text-decoration: none;
+  display: block;
+  padding: 20px;
 }
 
 h1 {
   color: steelblue;
-  text-align: center;
-  margin-top: 20px;
 }
 
 img {
-  display: block;
-  margin: 0 auto;
   width: 150px;
   height: auto;
   border: 1px solid steelblue;
@@ -60,13 +42,9 @@ img {
 }
 
 footer {
-  margin-top: 20px;
+  margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
-  padding: 10px;
 }
 
-p {
-  padding: 0;
-  text-align: justify;
-}
+p { padding: 0; }
