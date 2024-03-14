@@ -17,11 +17,6 @@
   padding: 1rem;
   background-color: #eee;
   text-align: center;
-  margin: 1rem;
-  border: 1px solid rgba(0,0,0,.1);
-  padding: 1rem;
-  background-color: #ddd;
-  color: #000;
   position: relative; /* Add this line to establish positioning context */
 }
 
@@ -76,3 +71,11 @@ img {
 p { padding: 0; }
 
 /* Class Selectors */
+
+.box{
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
