@@ -17,7 +17,7 @@ aside{
   padding: 1rem;
   background-color: #eee;
   text-align: center;
-
+  position: relative; /* Add this line to establish positioning context */
 }
 
 aside h2 {
