@@ -39,6 +39,8 @@ aside h2 {
   
 }
 
+p { padding: 0; }
+
 nav {
   background-color: steelblue;
   padding: 10px;
@@ -62,13 +64,13 @@ img {
   box-shadow: 0 0 30px gray;
 }
 
-.footer{
+footer{
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
 }
 
-p { padding: 0; }
+
 
 /* Class Selectors */
 
