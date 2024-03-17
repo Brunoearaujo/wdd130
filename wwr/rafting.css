@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+
+:root {
+  --primary-color: #396e94;
+  --secondary-color: #e7c24f;
+  --accent1-color: #a43312;
+  --accent2-color: #381d2a;
+
+  --heading-font: 'Madimi One', sans-serif;
+  --paragraph-font: 'Arial', sans-serif;
+
+  --nav-background-color: #333;
+  --nav-link-color: #fff;
+  --nav-hover-link-color: #ccc;
+  --nav-hover-background-color: #555;
+}
+
+/* Styling headings and paragraph elements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family);
+  color: var(--secondary-color);
+}
+
+article p {
+  font-family: var(--paragraph-font);
+  color: white;
+  font-weight: bold;
+}
+
+p{
+  color: black;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#img5{
+  width: 500px;
+  display: block;
+  padding: 5px;
+  margin-left: 0;
+}
+
+/* Adding colors to fonts */
+a {
+  color: var(--accent2-color);
+  font-weight: bold;
+}
+
+/* Removing underlines from social media links */
+.social-media-links a {
+  text-decoration: none;
+}
+
+/* Limiting entire width of the page */
+.container {
+  max-width: 1200px; /* Example maximum width */
+  margin: 0 auto; /* Center aligning content */
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left; /* Alinhado à esquerda */
+  color: white;
+}
+
+.hero-content article {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  
+}
+
+#happyclient{
+  width: 300px;
+  float: right;
+}
+
+
+/* Estilo para o texto dentro do footer */
+footer p {
+  color: black; /* Cor do texto */
+}
+
+/* Estilo para os links de redes sociais dentro do footer */
+.sociallinks a {
+  margin: 0 5px; /* Margem entre os ícones */
+}
+
+/* Estilo para os ícones de redes sociais dentro do footer */
+.sociallinks img {
+  width: 30px; /* Tamanho dos ícones */
+  height: auto;
+  margin-left: 0px;
+  display: inline;
+}
+
+#logo{
+  margin-left: 0;
+  height: 200px;
+}
+
+
