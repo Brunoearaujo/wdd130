@@ -150,7 +150,7 @@ header{
 }
 
 .history-item {
-  background-color: #f9f9f9;
+  background-color: #f2f2f2;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -164,6 +164,10 @@ header{
   margin-bottom: 0;
 }
 
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
 
 
 
