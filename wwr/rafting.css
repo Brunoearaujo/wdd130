@@ -80,6 +80,12 @@ a {
 /* Estilo para o texto dentro do footer */
 footer p {
   color: black; /* Cor do texto */
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center; /* Align social icons to the right */
+  width: 100%; /* Define a largura do footer como 100% da largura da página */
+    margin-left: auto; /* Centraliza o footer horizontalmente */
+    margin-right: auto; /* Centraliza o footer horizontalmente */
 }
 
 /* Estilo para os links de redes sociais dentro do footer */
@@ -89,10 +95,8 @@ footer p {
 
 /* Estilo para os ícones de redes sociais dentro do footer */
 .sociallinks img {
-  width: 30px; /* Tamanho dos ícones */
-  height: auto;
-  margin-left: 0px;
-  display: inline;
+width: 30px;
+
 }
 
 #logo{
