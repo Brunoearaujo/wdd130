@@ -107,4 +107,14 @@ footer p {
   height: 200px;
 }
 
+header{
+  margin: 1rem auto;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+
 
