@@ -139,6 +139,31 @@ header{
   
 }
 
+.history-section {
+  padding: 20px;
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Layout responsivo usando CSS Grid */
+  gap: 20px;
+}
+
+.history-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.history-item h2 {
+  margin-top: 0;
+}
+
+.history-item p {
+  margin-bottom: 0;
+}
+
 
 
 
