@@ -9,7 +9,7 @@
 body {
   font-family: Press Start 2p, Geordia, serif;
   font-size: 1.2em;
-  color: #000;
+  color: #333;
   background-color: #fff;
 }
 
@@ -76,15 +76,14 @@ input[type="checkbox"] {
 }
 
 button {
-  margin: 1rem auto;
-  /* Adiciona uma margem em cima e em baixo e auto para centralizar horizontalmente */
+  margin: 1rem;
   background-color: navy;
   color: #fff;
   border: none;
   border-radius: .5rem;
   padding: .75rem;
   font-size: 1.2rem;
-  text-align: center;
+  align-items: center;
 }
 
 button:hover {
@@ -103,13 +102,16 @@ footer {
 .form-item {
   display: grid;
   align-items: center;
+  
 }
 
 .column1 {
   grid-template-columns: 3fr 1fr;
   margin: 0.5rem 0;
+  
 }
 
 .column2{
   grid-template-columns: 1fr 2fr;
+  text-align: center;
 }
