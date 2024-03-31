@@ -57,27 +57,6 @@ a {
   margin: 0 auto; /* Center aligning content */
 }
 
-.hero-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: left; /* Alinhado à esquerda */
-  color: white;
-}
-
-.hero-content article {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  
-}
-
-#happyclient{
-  width: 300px;
-  float: right;
-}
-
-
 /* Estilo para o texto dentro do footer */
 footer p {
   color: black; /* Cor do texto */
@@ -189,8 +168,55 @@ figcaption {
   text-align: center;
 }
 
+.employee-profile {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
 
+.employee-profile img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20%;
+}
 
+.caption {
+  margin-top: 10px;
+  font-weight: bold;
+}
 
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
 
+label {
+  display: block;
+  margin-bottom: 5px;
+}
 
+input[type="text"], input[type="email"], textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

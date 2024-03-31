@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Bruno Araujo">
-    <meta name="description" content="About us page in progress, just to show all my work during this week 03">
+    <meta name="description" content="Contact us page in progress, just to show all my work during this week">
     <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
       rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="contact.css">
-    <title>Review: Whitewater Rafting Company - About Us</title>
+    <title>Contact Us</title>
   </head>
   <body>
     <header>
@@ -21,79 +21,58 @@
       </nav>
     </header>
     <main>
-      <div class="hero">
-        <img id="rafting" src="images/rafting48_1024.jpg" alt="Rafting Crew">
-        <div class="hero-content">
-          <h1>Whitewater</h1>
-          <article>
+      <h1>Contact Us</h1>
 
-            <img id="happyclient" src="images/happyclient.jpg" alt="This is a picture of a happy client">
-            <h2>Welcome to Whitewater Company!</h2>
-            <p>Our Purpose:</p>
-            <p>
-              At Rapids Adventure, our purpose is to provide unforgettable
-              outdoor experiences that connect people with the beauty and
-              excitement of nature.
-            </p>
-            <p>Our Mission:</p>
-            <p>
-              We are committed to delivering safe, thrilling, and eco-conscious
-              rafting adventures while fostering a sense of stewardship for the
-              environment and promoting teamwork, camaraderie, and personal
-              growth among our guests.
-            </p>
-            <p>Our Creed:</p>
-            <p>
-              As guides and stewards of the river, we pledge to uphold the
-              highest standards of safety, professionalism, and respect for
-              nature. We believe in the transformative power of outdoor
-              adventure and strive to share it with everyone who joins us on the
-              water.
-            </p>
-            <p>Our Motto:</p>
-            <p>"Navigate with Whitewater, Embrace the Adventure!"</p>
-          </article>
+      <h2>Send Us a message</h2>
+
+      <p>Whitewater</p>
+      <p>Adress: Western Wall Plaza
+        Jerusalem, Israel</p>
+      <p>Phone: (+55)11-2345678</p>
+      <p>Email: <a href="mailto:">WhitewaterBR@hotmail.com</a></p>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217098.66650373428!2d35.128664134391165!3d31.76593996673174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502d7d634c1fc4b%3A0xd96f623e456ee1cb!2sJerusal%C3%A9m%2C%20Israel!5e0!3m2!1spt-BR!2sbr!4v1711847206292!5m2!1spt-BR!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
         </div>
-      </div>
-      <section class="history-section">
-        <div class="history-grid">
-          <div class="history-item">
-        <h2>History</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sit ea
-          aliquid hic, voluptatum maxime soluta labore reiciendis error est
-          consequatur sint reprehenderit accusamus a obcaecati perspiciatis,
-          velit modi non?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quae sequi illum enim autem deleniti consequatur cum accusantium, sed maiores non alias error quibusdam natus mollitia possimus iure nam suscipit!
-        </p>
-          </div>
+
+        <div class="employee-profile">
+          <img src="images/happyclient.jpg" alt="Employee 1">
+          <div class="caption">Happy Employees</div>
         </div>
-      </section>
-      <section class="adventures-section">
-        <div class="adventures-grid">
-        <h2>Adventure Awaits You!</h2>
-        <figure class="adventure-item">
-        <img id="img1" src="images/rafting31_600.jpg" alt="rafting img">
-        <figcaption>Rafting </figcaption>
-        </figure>
-        <figure class="adventure-item">
-        <img id="img2" src="images/river-wide2.jpg" alt="rafting img">
-        <figcaption>Rafting 1</figcaption>
-        </figure>
-        <figure class="adventure-item">
-        <img id="img3" src="images/lunch.jpg" alt="rafting img">
-        <figcaption>Rafting 2</figcaption>
-        </figure>
-        <figure class="adventure-item">
-        <img id="img4" src="images/rafting59_600.jpg" alt="rafting img">
-        <figcaption>Rafting 3</figcaption>
-        </figure>
-        <figure class="adventure-item">
-        <img id="img5" src="images/rafting65_600.jpg" alt="rafting img">
-        <figcaption>Rafting 4</figcaption>
-        </figure>
+        <div class="employee-profile">
+          <img src="images/happy-employees.webp" alt="Employee 2">
+          <div class="caption">Joyful Employee 2</div>
         </div>
-      </section>
+        <div class="employee-profile">
+          <img src="images/Hjob.jpg" alt="Employee 3">
+          <div class="caption">Smiling Employee 3</div>
+        </div>
+
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        
+          <label for="purpose">Purpose of Message:</label>
+          <select id="purpose" name="purpose" required>
+            <option value="" disabled selected>Select purpose</option>
+            <option value="General Inquiry">General Inquiry</option>
+            <option value="Reservation Question">Reservation Question</option>
+            <option value="Website Suggestion">Website Suggestion</option>
+          </select>
+        
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        
+          <input type="checkbox" id="subscribe" name="subscribe">
+          <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+        
+          <button type="submit">Submit</button>
+        
+      
+
+
     </main>
     <footer>
       <p>&copy; 2024 ⚓Whitewater⚓ - Created by Bruno Araujo</p>
