@@ -1,0 +1,171 @@
+
+:root {
+  --primary-color: #396e94;
+  --secondary-color: #e7c24f;
+  --accent1-color: #a43312;
+  --accent2-color: #381d2a;
+
+  --heading-font: 'Madimi One', sans-serif;
+  --paragraph-font: 'Arial', sans-serif;
+
+  --nav-background-color: #333;
+  --nav-link-color: #fff;
+  --nav-hover-link-color: #ccc;
+  --nav-hover-background-color: #555;
+}
+
+/* Styling headings and paragraph elements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family);
+  color: var(--secondary-color);
+}
+
+p{
+  color: black;
+  font-weight: bold;
+}
+
+/* Adding colors to fonts */
+a {
+  color: var(--accent2-color);
+  font-weight: bold;
+}
+
+/* Removing underlines from social media links */
+.social-media-links a {
+  text-decoration: none;
+  
+}
+
+/* Estilo para o texto dentro do footer */
+footer p {
+  color: black; /* Cor do texto */
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center; /* Align social icons to the right */
+  width: 100%; /* Define a largura do footer como 100% da largura da página */
+    margin-left: auto; /* Centraliza o footer horizontalmente */
+    margin-right: auto; /* Centraliza o footer horizontalmente */
+}
+
+/* Estilo para os links de redes sociais dentro do footer */
+.sociallinks a {
+  margin: 0 5px; /* Margem entre os ícones */
+  display: inline-block;
+  
+}
+
+.sociallinks{
+  text-align: center;
+}
+/* Estilo para os ícones de redes sociais dentro do footer */
+.sociallinks img {
+width: 30px;
+
+}
+
+#logo{
+  margin-left: 0;
+  height: 200px;
+  
+}
+
+header{
+  margin: 1rem auto;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+.navlogo{
+  display: flex;
+	list-style: none;
+}
+
+.navlogo li{
+  flex: 1 1 100%;
+}
+
+.navlogo a{
+  display: block;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navlogo a:hover{
+  color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+  
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cta {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.trip {
+  margin-bottom: 50px;
+}
+
+.trip-details {
+  display: flex;
+  align-items: center;
+}
+
+.trip-details img {
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.table {
+  margin: 50px auto;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
