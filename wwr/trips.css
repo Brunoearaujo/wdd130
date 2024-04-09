@@ -119,9 +119,9 @@ button:hover {
   background-color: #45a049;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+
+.image-container img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse seu contêiner */
 }
 
 .cta {
@@ -140,7 +140,6 @@ body {
 
 .trip-details img {
   max-width: 300px;
-  margin-right: 20px;
 }
 
 .table {
@@ -162,6 +161,7 @@ th, td {
 th {
   background-color: #f2f2f2;
 }
+
 
 
 
